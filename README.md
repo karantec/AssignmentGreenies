@@ -21,3 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   clone it and 
   npm install 
   npm start
+
+  Backend for the login page 
+  https://assignment-kody.onrender.com/api/create-account
+  github repo-https://github.com/karantec/Assignmentbackend.git
