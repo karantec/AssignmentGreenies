@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import {
     FaTh,
     FaBars,
-    FaUserAlt,
-    FaRegChartBar,
-    FaCommentAlt,
-    FaShoppingBag,
-    FaThList
+    
+    FaRegChartBar
+   
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
@@ -16,35 +14,18 @@ const Sidebar = ({children}) => {
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
-            path:"/",
-            name:"Dashboard",
+            path:"/User",
+            name:"UserDetails",
             icon:<FaTh/>
         },
+        
         {
-            path:"/about",
-            name:"About",
-            icon:<FaUserAlt/>
-        },
-        {
-            path:"/analytics",
-            name:"Analytics",
+            path:"/Account",
+            name:"AccountCreation",
             icon:<FaRegChartBar/>
         },
-        {
-            path:"/comment",
-            name:"Comment",
-            icon:<FaCommentAlt/>
-        },
-        {
-            path:"/product",
-            name:"Product",
-            icon:<FaShoppingBag/>
-        },
-        {
-            path:"/productList",
-            name:"Product List",
-            icon:<FaThList/>
-        }
+       
+        
     ]
     return (
         <div className="container">
