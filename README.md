@@ -15,8 +15,8 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
  how to start the project :
-  Star the project 
-  fork the project 
+  <li> Star the project 
+  fork the project </li>
   clone it and 
   npm install 
   npm start
